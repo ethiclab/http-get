@@ -1,0 +1,23 @@
+{
+  "name": "@ethiclab/http-get",
+  "version": "1.0.0",
+  "description": "A simple http get function",
+  "main": "src/http-get.js",
+  "scripts": {
+    "test": "node test/http-get.spec.js"
+  },
+  "keywords": [
+    "http",
+    "get",
+    "request"
+  ],
+  "author": {
+    "name": "Eduardo Montoya",
+    "email": "tech@ethiclab.it",
+    "url": "https://ethiclab.it"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "xmlhttprequest-ssl": "^1.6.0"
+  }
+}
