@@ -18,6 +18,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "xmlhttprequest-ssl": "^1.6.0"
+    "@ethiclab/xmlhttprequest": "^1.8.0"
   }
 }

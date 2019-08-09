@@ -6,7 +6,7 @@
 
 ```javascript
 const get = require("../src/http-get")
-global.XMLHttpRequest = require("xmlhttprequest-ssl").XMLHttpRequest;
+global.XMLHttpRequest = require("@ethiclab/xmlhttprequest").XMLHttpRequest
 
 get("https://www.google.com")
   .then(function (res) {
