@@ -4,7 +4,7 @@
   "description": "A simple http get function",
   "main": "src/http-get.js",
   "scripts": {
-    "test": "node test/http-get.spec.js"
+    "test": "nyc _mocha --reporter lcovonly -- -R spec"
   },
   "keywords": [
     "http",
@@ -18,6 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@ethiclab/xmlhttprequest": "^1.8.0"
+    "@ethiclab/xmlhttprequest": "^1.8.0",
+    "mocha": "^6.2.0"
   }
 }
