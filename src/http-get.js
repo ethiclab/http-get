@@ -1,7 +1,7 @@
 (function() {
   const f = function(url, options) {
     return new Promise(function (resolve, reject) {
-      let request = new XMLHttpRequest()
+      const request = new XMLHttpRequest()
       request.open('GET', url, true)
       request.onload = function() {
         resolve(request.responseText)
