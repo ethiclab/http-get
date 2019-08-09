@@ -5,5 +5,5 @@ install:
   - npm install -g nyc
   - npm install -g codecov
 script:
-  - nyc _mocha --reporter lcovonly -- -R spec
+  - nyc npm test
   - codecov

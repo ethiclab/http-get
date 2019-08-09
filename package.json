@@ -5,7 +5,7 @@
   "main": "src/http-get.js",
   "scripts": {
     "test": "node test/http-get.spec.js",
-    "cover": "nyc _mocha --reporter lcovonly -- -R spec"
+    "cover": "nyc npm test"
   },
   "keywords": [
     "http",
@@ -19,7 +19,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@ethiclab/xmlhttprequest": "^1.8.0",
-    "mocha": "^6.2.0"
+    "@ethiclab/xmlhttprequest": "^1.8.0"
   }
 }
