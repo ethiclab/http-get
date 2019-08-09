@@ -1,6 +1,6 @@
 {
   "name": "@ethiclab/http-get",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple http get function",
   "main": "src/http-get.js",
   "scripts": {
@@ -18,6 +18,10 @@
     "url": "https://ethiclab.it"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ethiclab/http-get.git"
+  },
   "devDependencies": {
     "@ethiclab/xmlhttprequest": "^1.8.0"
   }
