@@ -4,7 +4,8 @@
   "description": "A simple http get function",
   "main": "src/http-get.js",
   "scripts": {
-    "test": "nyc _mocha --reporter lcovonly -- -R spec"
+    "test": "node test/http-get.spec.js",
+    "cover": "nyc _mocha --reporter lcovonly -- -R spec"
   },
   "keywords": [
     "http",
