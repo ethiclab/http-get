@@ -1,4 +1,4 @@
-# http-get
+# http-get [![codecov](https://codecov.io/gh/ethiclab/http-get/branch/master/graph/badge.svg)](https://codecov.io/gh/ethiclab/http-get)
 
     npm install @ethiclab/http-get
 
