@@ -1,6 +1,6 @@
 {
   "name": "@ethiclab/http-get",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple http get function",
   "main": "src/http-get.js",
   "scripts": {

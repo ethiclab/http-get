@@ -5,7 +5,7 @@
 # usage
 
 ```javascript
-const get = require("../src/http-get")
+const get = require("@ethiclab/http-get")
 global.XMLHttpRequest = require("@ethiclab/xmlhttprequest").XMLHttpRequest
 
 get("https://www.google.com")
